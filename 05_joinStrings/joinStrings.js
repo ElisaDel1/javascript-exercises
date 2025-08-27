@@ -19,6 +19,18 @@ let age = thisYear - birthYear;
 
 let greeting = 'Hello! My name is ' + fullName + ' and I am ' + age + ' years old.';
 
+function repeatString (string, num) {
+  let repeatedString = "";
+
+  for (let i = 0; i < num; i++) {
+    repeatedString += string;
+  }
+
+  return repeatedString;
+}
+
+console.log(repeatString('Hello', 3));
+
 
 
 // Do not change this
